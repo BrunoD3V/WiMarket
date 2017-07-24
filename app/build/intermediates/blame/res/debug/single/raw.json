@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\OurWiMarket\\app\\build\\intermediates\\res\\merged\\debug\\raw\\legal.txt",
+        "source": "D:\\AndroidProjects\\OurWiMarket\\app\\src\\main\\res\\raw\\legal.txt"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\OurWiMarket\\app\\build\\intermediates\\res\\merged\\debug\\raw\\info.txt",
+        "source": "D:\\AndroidProjects\\OurWiMarket\\app\\src\\main\\res\\raw\\info.txt"
+    }
+]

@@ -1,0 +1,7 @@
+#Mon Jul 24 21:44:04 BST 2017
+base.0=D\:\\AndroidProjects\\OurWiMarket\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_92fb919d210ac24e9dae3687e22127d6cc52e360
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\AndroidProjects\\OurWiMarket\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4aa90aa34b5d195f40220fa0d35729a3ee885ab1\\classes.dex
+base.1=D\:\\AndroidProjects\\OurWiMarket\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4aa90aa34b5d195f40220fa0d35729a3ee885ab1
+file.0=D\:\\AndroidProjects\\OurWiMarket\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_92fb919d210ac24e9dae3687e22127d6cc52e360\\classes.dex

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\OurWiMarket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\custom_dialog.xml",
+        "source": "D:\\AndroidProjects\\OurWiMarket\\app\\src\\main\\res\\xml\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\OurWiMarket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\buttonlayoutmodel.xml",
+        "source": "D:\\AndroidProjects\\OurWiMarket\\app\\src\\main\\res\\xml\\buttonlayoutmodel.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\OurWiMarket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "D:\\AndroidProjects\\OurWiMarket\\app\\src\\main\\res\\xml\\preferences.xml"
+    }
+]

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<PreferenceCategory android:title="Category">
+           
+        <CheckBoxPreference
+            android:key="basic_options"
+            android:title="Basic Options"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="advanced_options"
+            android:title="Advanced Options"
+            android:defaultValue="false" />
+            
+    </PreferenceCategory>
+    android:dependency="advanced_options"
+
+    -->
+            
+    <PreferenceScreen android:title="Pedometer">
+        
+        <ListPreference
+            android:key="step_sensitivity"
+            android:title="Sensitivity"
+            android:summary="Calibrate the step detector"
+            android:defaultValue="30"
+            android:entries="@array/sensitivity_preference"
+            android:entryValues="@array/sensitivity_preference_values" />
+            
+        <EditTextPreference
+            android:key="step_length"
+            android:title="Step Length"
+            android:summary="For distance calculation"
+            android:dialogTitle="Edit step length"
+            android:dialogMessage="Please enter in centimeters"
+            android:inputType="number"
+            android:numeric="integer|decimal"
+            android:maxLength="2"
+            android:hint="Enter distance (max 99)"
+            android:defaultValue="55" />
+
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="Compass">
+
+        <PreferenceCategory android:title="Map View">
+
+            <CheckBoxPreference
+                android:key="rotate_map"
+                android:title="Rotate Map"
+                android:defaultValue="true" />
+
+            <org.me.wimarket.preferences.MapBarPreference
+                android:key="map_compass"
+                android:title="Map Compass"
+                android:summary="North of the move compass"
+                android:dependency="rotate_map"
+                android:defaultValue="180" />
+
+        </PreferenceCategory>
+
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="Radio Map">
+
+        <ListPreference
+            android:key="average_variance"
+            android:title="Average Variance"
+            android:summary="For sample average calculation"
+            android:defaultValue="0.5"
+            android:entries="@array/average_variance_preference"
+            android:entryValues="@array/average_variance_preference_values" />
+
+        <org.me.wimarket.preferences.SamplesAverageBarPreference
+            android:key="samples_average"
+            android:title="Number of samples for average calculation by active access point"
+            android:defaultValue="50" />
+            
+        <EditTextPreference
+            android:key="real_distance"
+            android:title="Distance"
+            android:summary="Maximum allowable distance for performing calculations in meters"
+            android:dialogTitle="Edit Mode"
+            android:inputType="number"
+            android:numeric="integer|decimal"
+            android:maxLength="2"
+            android:hint="Maximum distance"
+            android:defaultValue="10" />
+
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="WiFi">
+
+        <PreferenceCategory android:title="Access Point">
+
+            <EditTextPreference
+                android:key="minimum_access_point_visible"
+                android:title="Access Points"
+                android:summary="Number minimum of access points visible to process"
+                android:dialogTitle="Edit access points"
+                android:inputType="number"
+                android:numeric="integer|decimal"
+                android:maxLength="1"
+                android:hint="Number of access points visible"
+                android:defaultValue="3" />
+
+            <EditTextPreference
+                android:key="tolerance_dbm"
+                android:title="Tolerance"
+                android:summary="Number maximum of tolerance between dBm values"
+                android:dialogTitle="Edit tolerance"
+                android:inputType="number"
+                android:numeric="integer|decimal"
+                android:maxLength="2"
+                android:hint="Number maximum of tolerance"
+                android:defaultValue="5" />
+
+            <EditTextPreference
+                android:key="number_samples_mode"
+                android:title="Samples Mode"
+                android:summary="Number of samples for mode. The greater the number of samples, more rigorous the difference the final dBm value"
+                android:dialogTitle="Edit Mode"
+                android:inputType="number"
+                android:numeric="integer|decimal"
+                android:maxLength="2"
+                android:hint="Number of samples"
+                android:defaultValue="1" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="Settings">
+
+            <CheckBoxPreference
+                android:key="delete_dbm_history"
+                android:title="Erase dBm History"
+                android:summary="Erase the access point dBm history if power down"
+                android:defaultValue="false" />
+
+            <CheckBoxPreference
+                android:key="off_immediately"
+                android:title="Off Immediately"
+                android:summary="Enable to turn off immediately. Disable to active a sleep countdown timer if an access point power down"
+                android:defaultValue="true" />
+
+            <CheckBoxPreference
+                android:key="wifi_signal"
+                android:title="WiFi Tracking"
+                android:summary="Enable all wifi signal for tracking or the only best signal quality"
+                android:defaultValue="true" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="Positioning">
+
+            <EditTextPreference
+                android:key="number_samples_standard_deviation"
+                android:title="Samples Std Deviation"
+                android:summary="Number of samples for Standard Deviation"
+                android:dialogTitle="Edit samples Standard Deviation"
+                android:inputType="number"
+                android:numeric="integer|decimal"
+                android:maxLength="2"
+                android:hint="Number of samples"
+                android:defaultValue="6" />
+
+            <org.me.wimarket.preferences.WifiGoodVariance
+                android:key="good_stdsev"
+                android:title="Good Std Dev"
+                android:summary="Maximum Std Dev in dBm to be considered a good signal"
+                android:defaultValue="1.5" />
+
+            <org.me.wimarket.preferences.WifiBadVariance
+                android:key="bad_stddev"
+                android:title="Bad Std Dev"
+                android:summary="Minimum Std Dev in dBm to be considered a bad signal"
+                android:defaultValue="2.5" />
+
+        </PreferenceCategory>
+
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="Inertial Navigation System"></PreferenceScreen>
+
+    <PreferenceScreen android:title="Voice"></PreferenceScreen>
+
+    <PreferenceScreen android:title="Lateration">
+
+        <EditTextPreference
+                android:key="lateration_sensitivity"
+                android:title="Sensitivity"
+                android:summary="Sensitivity of lateration in meters"
+                android:dialogTitle="Edit Mode"
+                android:inputType="number"
+                android:numeric="integer|decimal"
+                android:maxLength="2"
+                android:hint="Number of the meters"
+                android:defaultValue="1" />
+                
+        <EditTextPreference
+                android:key="lateration_tolerance"
+                android:title="Tolerance"
+                android:summary="Tolerance on the minimum number of access points visible"
+                android:dialogTitle="Edit Mode"
+                android:inputType="number"
+                android:numeric="integer|decimal"
+                android:maxLength="2"
+                android:hint="Number maximum of tolerance"
+                android:defaultValue="1" />
+                
+        <CheckBoxPreference
+                android:key="wifi_obstacles"
+                android:title="WiFi Obstacles"
+                android:summary="Enable if there are walls or other obstacles that interfere with the signal"
+                android:defaultValue="true" />
+
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="Panic">
+
+        <EditTextPreference
+                android:key="panic_number"
+                android:title="Panic number"
+                android:summary="Telephone number of the recipient sms"
+                android:dialogTitle="Edit Mode"
+                android:inputType="number"
+                android:numeric="integer|decimal"
+                android:maxLength="9"
+                android:hint="Number of the recipient sms"
+                android:defaultValue="" />
+
+    </PreferenceScreen>
+
+</PreferenceScreen>
