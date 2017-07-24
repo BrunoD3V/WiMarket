@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="112dp" />
+
+    <View
+        android:layout_width="fill_parent"
+	android:layout_height="1px"
+	android:background="@color/opaque_red"
+	android:paddingTop="8dp" />
+
+    <TextView
+	android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        style="@style/CodeFont"
+        android:textColor="@color/opaque_green"
+        android:background="@color/translucent_red"
+        android:gravity="center"
+	android:textSize="13sp"
+	android:textStyle="bold"
+	android:text="@string/version" />
+
+    <View
+	android:layout_width="fill_parent"
+	android:layout_height="1px"
+	android:background="@color/opaque_red"
+	android:paddingBottom="8dp" />
+                
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:gravity="center">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/translucent_border" />
+            
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="153dp" 
+            android:cacheColorHint="#ff00ff00">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/opaque_white"
+                android:background="@color/translucent_background" 
+                android:textSize="13sp"
+                android:text="@string/credits_info"
+                android:gravity="center" />
+                
+        </ScrollView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/translucent_border" />
+	
+    </LinearLayout>
+                
+    <TextView 
+        android:layout_height="fill_parent"
+        style="@style/CodeFont"
+        android:gravity="bottom|center_horizontal"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="36dp"
+        android:textSize="13sp"
+        android:text="@string/credits_msg" />
+            
+</LinearLayout>

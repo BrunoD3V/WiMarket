@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="foreground1">#ff355689</color>
+    <color name="foreground2">#ff7081a3</color>
+    
+    <color name="background1">#ffffffff</color>
+    <color name="background2">#ffd5ddeb</color>
+    <color name="background3">#ffe3e8f1</color>
+    
+    <color name="TransparentGrey">#7F000000</color>
+    
+    <!--<color name="dim_foreground_dark">#ff_your_color</color>
+    <color name="dim_foreground_dark_disabled">#80_your_color</color>
+    <color name="dim_foreground_light_inverse">#ff_your_color</color>
+    <color name="dim_foreground_light_inverse_disabled">#80_your_color</color>-->
+    
+    <color name="opaque_red">#f00</color>
+    <color name="translucent_red">#80ff0000</color>
+    
+    <color name="opaque_orange">#ffa500</color>
+    <color name="translucent_orange">#80ffa500</color>
+    
+    <color name="opaque_blue">#00f</color>
+    <color name="translucent_blue">#800000ff</color>
+    
+    <color name="opaque_light_blue">#33a1c9</color>
+    <color name="translucent_light_blue">#8033a1c9</color>
+    
+    <color name="opaque_green">#0f0</color>
+    <color name="translucent_green">#8000ff00</color>
+    
+    <color name="opaque_white">#fff</color>
+    <color name="translucent_white">#80ffffff</color>
+   
+    <color name="opaque_yellow">#ffff00</color>
+    <color name="translucent_yellow">#80ffff00</color>
+    
+    <color name="opaque_slate_gray">#708090</color>
+    <color name="translucent_slate_gray">#80708090</color>
+    
+    <color name="opaque_gold">#ffd700</color>
+    <color name="translucent_gold">#80ffd700</color>
+    
+    <color name="opaque_background">#000000</color>
+    <color name="translucent_background">#96000000</color>
+    <color name="translucent_border">#7dff0000</color>
+    
+</resources>

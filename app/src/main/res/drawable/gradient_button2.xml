@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item>
+        <bitmap 
+            android:src="@drawable/fingerprint_search_pressed"/>
+    </item>
+    
+    <item 
+        android:state_focused="true" >
+        
+        <shape>
+            
+            <gradient 
+                android:angle="225" 
+                android:startColor="#880f0f10" 
+                android:centerColor="#880d0d0f" 
+                android:endColor="#885d5d5e"
+            />
+            
+            <corners    
+                android:topLeftRadius="10dip" 
+                android:bottomRightRadius="10dip"
+                android:topRightRadius="10dip"
+                android:bottomLeftRadius="10dip"
+            />
+            
+            <stroke
+                android:width="1dp"
+                android:color="@color/opaque_orange" 
+            />
+            
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" 
+            />
+        
+        </shape>
+        
+    </item>
+
+
+</layer-list>

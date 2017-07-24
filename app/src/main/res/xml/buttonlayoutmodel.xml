@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="left|center">
+
+    <TextView android:id="@+id/ssid" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="4px"
+        android:layout_marginLeft="8px"
+        android:text="@+id/label"
+        android:textSize="18px"> <!--30-->
+    </TextView>
+        
+    <TextView android:id="@+id/bssid" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26px"
+        android:layout_marginLeft="8px" 
+        android:textColor="#0099CC">
+    </TextView>
+    
+    <!--<ToggleButton android:id="@+id/togglebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="On"
+        android:textOff="Off"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="10px"
+        android:layout_alignParentRight="true"/>-->
+    
+    <TextView android:id="@+id/x" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:layout_marginLeft="200px" 
+        android:textColor="#FEDFBF">
+    </TextView>
+    
+    <TextView android:id="@+id/y" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14px"
+        android:layout_marginLeft="200px" 
+        android:textColor="#FEDFBF">
+    </TextView>
+    
+    <TextView android:id="@+id/z" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28px"
+        android:layout_marginLeft="200px" 
+        android:textColor="#FEDFBF">
+    </TextView>
+
+    <CheckBox android:id="@+id/check" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="10px"
+        android:layout_alignParentRight="true">
+    </CheckBox>
+
+</RelativeLayout>

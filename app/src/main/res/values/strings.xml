@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--  activity strings  - - - - - - - - - - - -->
+    <string name="app_name">WiMarket</string>
+    <string name="version">Version 12.2804</string><!-- ano . diames-->
+    <string name="made">IPB - EsACT</string>
+    
+    <!--  splash strings  - - - - - - - - - - - - -->
+    <string name="btn_map_activity">Show Map</string>
+    <string name="btn_route_activity">Route Planner</string>
+    <string name="btn_load_activity">Load Map</string>
+    <string name="btn_save_activity">Save Map</string>
+    <string name="btn_menu"><i>Menu</i></string>
+    <string name="btn_save"><i>Save</i></string>
+
+    <string name="file_selected">Selected file successfully</string>
+    <string name="file_saved">File successfully saved</string>
+    <string name="file_invalid">File invalid or missing</string>
+    <string name="file_new">Select a desired location</string>
+    <string name="file_sure">Are you sure you want open</string>
+
+    <string name="text"><b> </b></string>
+    
+    <string name="menu_my_location">My location</string>
+    <string name="menu_stop">Stop location</string>
+    <string name="menu_stop_routing">Stop routing</string>
+    <string name="menu_scan">Scan wifi</string>
+    <string name="menu_enable_view">Enable view</string>
+    <string name="menu_disable_view">Disable view</string>
+    <string name="menu_radio_map">Radio Map</string>
+    <string name="menu_manage_map">Manage Map</string>
+    <string name="menu_manage_access_point">Manage Access Point</string>
+    <string name="menu_return">Return</string>
+    <string name="menu_choose_destination">Get destination</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_show_map">Map</string>
+    
+    <!--  toast strings  - - - - - - - - - - - - -->
+    <string name="welcome_message">Welcome to the WiMarket!</string>
+    
+    <!--  dialog strings  - - - - - - - - - - - - -->
+    <string name="sd_card_error">Problem: sd card not found!\nPlease insert a memory card to work.\n</string>
+    <string name="tablet_error">Problem: Tablet device found!\nIncompatible types.\n</string>
+    
+    <!--  menu strings  - - - - - - - - - - - - - -->
+    <string name="about">About</string>
+    <string name="home_msg">WiMarket Project</string>
+    <string name="legal_msg">Legal Info</string>
+    <string name="credits_msg">Credits Info</string>
+    
+    <!--  dashboard strings  - - - - - - - - - -  -->
+    <string name="title_feature1">Floor plan</string>
+    <string name="title_feature2">Fingerprint</string>
+    <string name="title_feature3">Route</string>
+    <string name="title_feature4">Position</string>
+    <string name="title_feature5">Feature 5</string>
+    <string name="title_feature6">Feature 6</string>
+    <string name="title_feature7">Feature 7</string>
+
+    <!--  button strings  - - - - - - - - - - - - -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="stop">Stop</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="canceled">Operation canceled</string>
+    <string name="accept">Accept</string>
+
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+    
+    <!--  legal strings - - - - - - - - - - - - - -->
+    <string name="legal_info">Copyright © 2012 Rui Mansilha.\n
+                         All rights reserved.\n\n 
+                         This software is the property of Rui Mansilha and is protected by Portugal and other foreign copyright and trademark laws.\n\n 
+                         If you have any questions or concerns about copyright or terms of use, please contact by email ruimansilha@mail.telepac.pt.</string>
+    
+    <!--  notification strings  - - - - - - - - - -->
+    
+    
+    <!--  credits strings - - - - - - - - - - - - -->
+    <string name="developAuthor">Rui Mansilha</string>
+    <string name="credits_info">WiMarket is an application developed by Rui Mansilha.\n\n
+                        This application is a continuation of a final project as a graduate student of the Polytechnic Institute of Bragança, Portugal.\n\n
+                        Here are the results of a prototype that aims to enable blind citizens to acquire autonomous positioning and orientation indoors.\n\n
+                        This prototype implements an architecture that combines techniques inertial, magnetic and multilateration, backed by 802.11 networks and mobile devices.\n\n
+                        A very special thanks to Carlos R. Cunha and João Pedro Gomes.</string>
+                        
+    
+   
+</resources>

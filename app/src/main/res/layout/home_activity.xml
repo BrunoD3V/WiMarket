@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <!-- android:background="@drawable/background_home" 104dp android:layout_marginBottom="67dp" wrap_content-->
+    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="104dp"
+        android:padding="0dip" >
+            
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button 
+                android:id="@+id/home_btn_feature1"
+                style="@style/HomeButton"
+                android:onClick="onClickFeature"
+                android:visibility="visible"
+                android:enabled="true"
+                android:drawableTop="@drawable/home_button1"
+                android:text="@string/title_feature1" />
+
+            <Button 
+                android:id="@+id/home_btn_feature2"
+                style="@style/HomeButton"
+                android:onClick="onClickFeature"
+                android:visibility="visible"
+                android:enabled="false"
+                android:drawableTop="@drawable/home_button2"
+                android:text="@string/title_feature2" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button 
+                android:id="@+id/home_btn_feature3"
+                style="@style/HomeButton"
+                android:onClick="onClickFeature"
+                android:visibility="visible"
+                android:enabled="false"
+                android:drawableTop="@drawable/home_button3"
+                android:text="@string/title_feature3" />
+
+            <Button 
+                android:id="@+id/home_btn_feature4"
+                style="@style/HomeButton"
+                android:onClick="onClickFeature"
+                android:visibility="visible"
+                android:enabled="false"
+                android:drawableTop="@drawable/home_button4"
+                android:text="@string/title_feature4" />
+
+        </LinearLayout>
+
+<!--android:layout_height="fill_parent"-->
+        <TextView 
+            style="@style/CodeFont"
+            android:gravity="bottom|center_horizontal"
+            android:layout_gravity="bottom"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="36dp"
+            android:textSize="13sp"
+            android:text="@string/home_msg" />
+              
+    </LinearLayout>
+         
+</LinearLayout>

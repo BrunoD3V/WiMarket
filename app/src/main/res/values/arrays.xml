@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="sensitivity_preference">
+        <item>Very High</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <item>Very Low</item>
+    </string-array>
+
+    <string-array name="sensitivity_preference_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+
+    <!-- -->
+
+    <string-array name="average_variance_preference">
+        <item>(0.5) Very good precision</item>
+        <item>(1.0) Good precision</item>
+        <item>(1.5) Confiable precision</item>
+        <item>(2.0) Bad precision</item>
+        <item>(2.5) Very bad precision</item>
+    </string-array>
+
+    <string-array name="average_variance_preference_values">
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>2.5</item>
+    </string-array>
+
+</resources>

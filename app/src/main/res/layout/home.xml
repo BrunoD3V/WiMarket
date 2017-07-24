@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <TextView android:id="@+id/title"
+        android:layout_width="140px"
+        android:layout_height="40px"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_x="90px"
+        android:layout_y="20px"
+        android:textColor="#ffffffff"
+        android:typeface="serif"
+        android:text="@string/text" />
+
+    <TableLayout android:id="@+id/table1"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_y="80px"
+        android:layout_x="90px" >
+
+        <TableRow android:id="@+id/row1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ListView android:id="@+id/list"
+                android:layout_width="140px"
+                android:layout_height="320px"
+                android:gravity="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout android:id="@+id/table2"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_y="420px"
+        android:layout_x="90px" >
+
+        <TableRow android:id="@+id/row2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button android:id="@+id/btnMenu"
+                android:layout_width="140px"
+                android:layout_height="wrap_content"
+                style="?android:attr/buttonStyleSmall"
+                android:gravity="center"
+                android:text="@string/btn_menu" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout android:id="@+id/table3"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_y="0px"
+        android:layout_x="90px" >
+
+        <TableRow android:id="@+id/row3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="140px"
+                android:layout_height="fill_parent">
+
+                <Button android:id="@+id/btnMapActivity"
+                    android:layout_width="140px"
+                    android:layout_height="50px"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_x="0px"
+                    android:layout_y="90px"
+                    android:text="@string/btn_map_activity" />
+
+                <Button android:id="@+id/btnRouteActivity"
+                    android:layout_width="140px"
+                    android:layout_height="50px"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_x="0px"
+                    android:layout_y="160px"
+                    android:text="@string/btn_route_activity"/>
+
+                
+
+                <Button android:id="@+id/btnLoadActivity"
+                    android:layout_width="140px"
+                    android:layout_height="50px"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_x="0px"
+                    android:layout_y="300px"
+                    android:text="@string/btn_load_activity"/>
+
+                <Button android:id="@+id/btnSaveActivity"
+                    android:layout_width="140px"
+                    android:layout_height="50px"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_x="0px"
+                    android:layout_y="370px"
+                    android:text="@string/btn_save_activity"/>
+
+            </AbsoluteLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout android:id="@+id/table4"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_y="100px"
+        android:layout_x="60px" >
+
+        <TableRow android:id="@+id/row4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText android:id="@+id/fileSave"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text"
+                    android:maxLines="1" />
+
+                <Button android:id="@+id/btnSave"
+                    android:layout_width="80px"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/buttonStyleSmall"
+                    android:gravity="center"
+                    android:text="@string/btn_save"
+                    android:layout_y="50px"
+                    android:layout_x="60px" />
+
+            </AbsoluteLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout android:id="@+id/table5"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_y="80px"
+        android:layout_x="20px" >
+
+        <TableRow android:id="@+id/row5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <AbsoluteLayout android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+<!--150,210-->
+                <TextView android:id="@+id/item"
+                    android:layout_width="70px"
+                    android:layout_height="32px"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:layout_y="72px"
+                    android:layout_x="210px"
+                    android:textColor="#ffffffff"
+                    android:typeface="serif"
+                    android:textStyle="italic"
+
+                    android:shadowColor="#555555"
+                    android:shadowDx="5.0"
+                    android:shadowDy="5.0"
+                    android:shadowRadius="3.0"
+
+                    android:text="@string/text" />
+
+                <!--<Spinner android:id="@+id/Spinner01"
+                    android:layout_width="34px"
+                    android:layout_height="wrap_content"
+                    android:layout_y="70px"
+                    android:layout_x="230px" />-->
+
+                <TextView android:layout_width="70px"
+                    android:layout_height="20px"
+                    android:textSize="12sp"
+                    android:gravity="left"
+                    android:layout_y="10px"
+                    android:layout_x="10px"
+                    android:textColor="#ffffffff"
+                    android:typeface="serif"
+                    android:text="Destination" />
+
+                <AutoCompleteTextView android:id="@+id/editDestination"
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:completionHint="Select a product"
+                    android:completionThreshold="1"
+                    android:inputType="text|textCapWords|textAutoCorrect"
+                    android:textSize="14sp"
+                    android:textColor="#00f"
+                    android:layout_y="25px" />
+
+                <ListView android:id="@+id/choiceList"
+                    android:layout_width="260px"
+                    android:layout_height="200px"
+                    android:layout_y="80px"
+                    android:layout_x="10px"
+                    android:gravity="center" />
+
+                <Button android:id="@+id/btnAddMore"
+                    android:layout_width="70px"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_y="29px"
+                    android:layout_x="210px"
+                    android:gravity="center"
+                    android:text="Add" />
+
+                <Button android:id="@+id/btnSearchRoute"
+                    android:layout_width="280px"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_y="290px"
+                    android:textColor="#3D8B37"
+                    android:gravity="center"
+                    android:text="Show route" />
+
+            </AbsoluteLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+</AbsoluteLayout>
