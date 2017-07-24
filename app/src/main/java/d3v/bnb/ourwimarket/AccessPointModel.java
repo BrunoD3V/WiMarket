@@ -4,9 +4,6 @@ package d3v.bnb.ourwimarket;
  * Created by bruno on 07/22/2017.
  */
 
-
-//git
-
 public class AccessPointModel
 {
     private AccessPoint ac;
